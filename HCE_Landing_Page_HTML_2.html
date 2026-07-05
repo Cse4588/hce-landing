@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Healthcare Essentials — Sutton Essentials</title>
+<meta name="description" content="Healthcare Essentials is a plain-language guide to health insurance — with a denied claim appeal template, EOB worksheet, open enrollment checklist, and Medicare guide. Written by an HR professional with 25 years of experience. $47 instant download.">
+<meta property="og:title" content="Healthcare Essentials — Health insurance, finally explained.">
+<meta property="og:description" content="A plain-language guide to health insurance. Denied claim templates, EOB worksheets, open enrollment checklists, and a Medicare guide. Real next steps for real moments. $47 instant download.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://suttonessentials.com/healthcare-essentials">
+<meta property="og:image" content="https://suttonessentials.com/images/healthcare-essentials-og.png">
+<meta property="og:site_name" content="Sutton Essentials">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Healthcare Essentials — Health insurance, finally explained.">
+<meta name="twitter:description" content="Plain-language guide + templates and checklists for denied claims, EOBs, open enrollment, and Medicare. $47 instant download.">
+<meta name="twitter:image" content="https://suttonessentials.com/images/healthcare-essentials-og.png">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green: #1D9E75;
+  --green-light: #e8f7f1;
+  --green-mid: #c6e8d8;
+  --navy: #1B2A4A;
+  --azure: #74ABDF;
+  --azure-light: #e8f2fb;
+  --gray-text: #4a5568;
+  --gray-muted: #718096;
+  --gray-faint: #f7fafc;
+  --border: #e2e8f0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  color: var(--navy);
+  background: #fff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+/* ── NAV ── */
+nav {
+  padding: 1.1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: rgba(255,255,255,0.97);
+  backdrop-filter: blur(6px);
+  z-index: 100;
+}
+
+.nav-brand { font-size: 13px; font-weight: 600; color: var(--navy); letter-spacing: 0.04em; text-decoration: none; }
+.nav-brand span { color: var(--green); }
+
+.nav-btn {
+  background: var(--green);
+  color: #fff;
+  padding: 9px 22px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  transition: background 0.15s;
+}
+.nav-btn:hover { background: #178a65; }
+
+/* ── HERO ── */
+.hero {
+  padding: 6rem 2rem 5rem;
+  text-align: center;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.hero-tag {
+  display: inline-block;
+  background: var(--green-light);
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 20px;
+  margin-bottom: 1.75rem;
+}
+
+.hero h1 {
+  font-size: clamp(36px, 6vw, 58px);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--navy);
+  margin-bottom: 1.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero h1 em {
+  font-style: normal;
+  color: var(--green);
+  position: relative;
+}
+
+.hero-sub {
+  font-size: 19px;
+  color: var(--gray-text);
+  line-height: 1.7;
+  max-width: 560px;
+  margin: 0 auto 2.5rem;
+}
+
+.cta-primary {
+  display: inline-block;
+  background: var(--green);
+  color: #fff;
+  padding: 17px 40px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  transition: background 0.15s, transform 0.1s;
+}
+.cta-primary:hover { background: #178a65; transform: translateY(-2px); }
+
+.hero-image {
+  display: block;
+  width: 100%;
+  max-width: 980px;
+  height: auto;
+  margin: 3.5rem auto 0;
+  border-radius: 14px;
+  box-shadow: 0 30px 60px -20px rgba(27,42,74,0.35);
+}
+
+.hero-footnote {
+  font-size: 13px;
+  color: var(--gray-muted);
+  margin-top: 14px;
+}
+
+/* ── CONFESSION STRIP ── */
+.confession {
+  background: var(--navy);
+  padding: 3.5rem 2rem;
+  text-align: center;
+}
+
+.confession blockquote {
+  font-size: clamp(18px, 3vw, 24px);
+  color: rgba(255,255,255,0.9);
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.confession blockquote strong {
+  font-style: normal;
+  color: var(--green);
+  font-weight: 700;
+}
+
+/* ── BEFORE / AFTER ── */
+.decode {
+  padding: 5rem 2rem;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.decode-head { margin-bottom: 2.5rem; }
+
+.decode-head h2 {
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: var(--navy);
+  margin-bottom: 1rem;
+}
+
+.decode-head p {
+  font-size: 17px;
+  color: var(--gray-text);
+  max-width: 600px;
+  line-height: 1.7;
+}
+
+.decode-panels {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.panel {
+  border-radius: 12px;
+  padding: 1.75rem;
+}
+
+.panel-before {
+  background: #fff5f5;
+  border: 1.5px solid #fed7d7;
+}
+
+.panel-after {
+  background: var(--green-light);
+  border: 1.5px solid var(--green-mid);
+}
+
+.panel-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.panel-before .panel-label { color: #c53030; }
+.panel-after .panel-label { color: var(--green); }
+
+.panel-text {
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.panel-before .panel-text { color: #742a2a; font-family: 'Courier New', monospace; }
+.panel-after .panel-text { color: #1a4731; font-weight: 500; }
+
+.decode-arrow {
+  font-size: 28px;
+  color: var(--green);
+  font-weight: 800;
+  text-align: center;
+  line-height: 1;
+}
+
+/* ── WHAT'S INSIDE ── */
+.contents {
+  background: var(--gray-faint);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 5rem 2rem;
+}
+
+.contents-inner { max-width: 880px; margin: 0 auto; }
+
+.section-tag {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 0.75rem;
+}
+
+.contents h2 {
+  font-size: clamp(24px, 4vw, 34px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--navy);
+  margin-bottom: 2.5rem;
+  line-height: 1.2;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.item-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: border-color 0.15s;
+}
+.item-card:hover { border-color: var(--green); }
+
+.item-num {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--green);
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+}
+
+.item-card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.item-card p {
+  font-size: 13px;
+  color: var(--gray-text);
+  line-height: 1.6;
+}
+
+/* ── MOMENT LIST ── */
+.moments {
+  padding: 5rem 2rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.moments h2 {
+  font-size: clamp(24px, 4vw, 34px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--navy);
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.moment-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--border);
+  align-items: flex-start;
+}
+.moment-item:last-child { border-bottom: none; }
+
+.moment-dot {
+  width: 24px;
+  height: 24px;
+  background: var(--green-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.moment-dot svg {
+  width: 12px; height: 12px;
+  stroke: var(--green);
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.moment-item p {
+  font-size: 16px;
+  color: var(--gray-text);
+  line-height: 1.65;
+}
+
+/* ── ABOUT ── */
+.about {
+  background: var(--navy);
+  padding: 5rem 2rem;
+}
+
+.about-inner {
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.about-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--azure);
+  margin-bottom: 1.5rem;
+}
+
+.about-inner p {
+  font-size: 17px;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.8;
+  margin-bottom: 1.1rem;
+}
+
+.about-sig {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,0.12);
+}
+
+.about-sig .name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.about-sig .title {
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+}
+
+/* ── PRICING ── */
+.pricing {
+  padding: 5rem 2rem;
+  text-align: center;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.pricing h2 {
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--navy);
+  margin-bottom: 0.75rem;
+}
+
+.pricing-sub {
+  font-size: 16px;
+  color: var(--gray-muted);
+  margin-bottom: 2.5rem;
+}
+
+.price-box {
+  border: 2.5px solid var(--green);
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.price-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.75rem;
+}
+
+.price-amount {
+  font-size: 54px;
+  font-weight: 800;
+  color: var(--navy);
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.price-badge {
+  background: var(--green-light);
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.price-what {
+  font-size: 13px;
+  color: var(--gray-muted);
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.price-list {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.price-list li {
+  font-size: 14px;
+  color: var(--gray-text);
+  padding: 7px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.price-list li:last-child { border-bottom: none; }
+
+.check-icon {
+  width: 18px; height: 18px;
+  background: var(--green-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.check-icon svg {
+  width: 10px; height: 10px;
+  stroke: var(--green);
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.buy-btn {
+  display: block;
+  background: var(--green);
+  color: #fff;
+  padding: 17px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  transition: background 0.15s;
+  letter-spacing: 0.01em;
+}
+.buy-btn:hover { background: #178a65; }
+
+.price-fine {
+  font-size: 13px;
+  color: var(--gray-muted);
+  text-align: center;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+/* ── FOOTER ── */
+footer {
+  background: var(--gray-faint);
+  border-top: 1px solid var(--border);
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: 13px;
+  color: var(--gray-muted);
+  line-height: 1.8;
+}
+
+footer a { color: var(--azure); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+/* ── RESPONSIVE ── */
+/* ── TESTIMONIALS ── */
+.testimonials {
+  background: var(--gray-faint);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 5rem 2rem;
+}
+
+.testimonials-inner { max-width: 1100px; margin: 0 auto; }
+
+.testimonials h2 {
+  font-size: clamp(22px, 3.5vw, 30px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--navy);
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.testimonials-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.testimonial-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  position: relative;
+  flex: 1 1 250px;
+  max-width: 360px;
+}
+
+.testimonial-card::before {
+  content: '\201C';
+  position: absolute;
+  top: 1rem;
+  left: 1.25rem;
+  font-size: 40px;
+  color: var(--green);
+  font-family: Georgia, serif;
+  line-height: 1;
+  opacity: 0.4;
+}
+
+.testimonial-text {
+  font-size: 15px;
+  color: var(--gray-text);
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+  padding-top: 1.25rem;
+}
+
+.testimonial-attribution {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.testimonial-role {
+  font-size: 12px;
+  color: var(--gray-muted);
+  margin-top: 2px;
+}
+
+/* ── FORMAT INFO ── */
+.format-info {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1.5rem 0 1.75rem;
+  padding: 1.25rem;
+  background: var(--gray-faint);
+  border-radius: 10px;
+}
+
+.format-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--gray-text);
+}
+
+.format-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--green);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── GUARANTEE ── */
+.guarantee-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--green-light);
+  border: 1px solid var(--green-mid);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.guarantee-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.guarantee-box p {
+  font-size: 13px;
+  color: #1a4731;
+  line-height: 1.6;
+}
+
+.guarantee-box strong { font-weight: 700; }
+
+/* ── FAQ ── */
+.faq {
+  padding: 5rem 2rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.faq h2 {
+  font-size: clamp(22px, 3.5vw, 30px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--navy);
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--border);
+  padding: 1.25rem 0;
+}
+
+.faq-item:last-child { border-bottom: none; }
+
+.faq-q {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+.faq-a {
+  font-size: 15px;
+  color: var(--gray-text);
+  line-height: 1.75;
+}
+
+/* ── EMPLOYER PATHWAY ── */
+.employer-bar {
+  background: var(--azure-light);
+  border-top: 1px solid #c3ddf5;
+  border-bottom: 1px solid #c3ddf5;
+  padding: 1.25rem 2rem;
+  text-align: center;
+}
+
+.employer-bar p {
+  font-size: 14px;
+  color: var(--navy);
+  line-height: 1.6;
+}
+
+.employer-bar a {
+  color: var(--azure);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.employer-bar a:hover { text-decoration: underline; }
+
+@media (max-width: 640px) {
+  .hero { padding: 4rem 1.5rem 3.5rem; }
+  .decode { padding: 3.5rem 1.5rem; }
+  .decode-panels { grid-template-columns: 1fr; }
+  .decode-arrow { transform: rotate(90deg); }
+  .contents, .moments, .pricing, .about, .testimonials, .faq { padding: 3.5rem 1.5rem; }
+  .format-info { gap: 1rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="https://suttonessentials.com" class="nav-brand">Sutton <span>Essentials</span></a>
+  <a href="https://payhip.com/b/HwKry" class="nav-btn">Get it for $47 →</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <span class="hero-tag">Healthcare Essentials</span>
+  <h1>Health insurance,<br><em>finally explained.</em></h1>
+  <p class="hero-sub">A plain-language guide — with ready-to-use templates and checklists — for the moments health insurance stops making sense. Written by an HR professional with 25 years of experience.</p>
+  <a href="https://payhip.com/b/HwKry" class="cta-primary">Get Healthcare Essentials — $47</a>
+  <p class="hero-footnote">Instant digital download · No subscription · No jargon</p>
+  <img class="hero-image" src="https://images.squarespace-cdn.com/content/v1/6a11090d11c2762fbe0fbb47/7b993dfc-2dac-4c2c-a901-fd468c681563/healthcare-essentials-hero-v3_1.png?format=1500w" alt="Healthcare Essentials guide, the 9 companion tools, and what's inside the system">
+</section>
+
+<!-- CONFESSION STRIP -->
+<div class="confession">
+  <blockquote>"Your claim was denied." Four words that send most people into a spiral — and most HR departments into a flurry of calls they weren't trained to answer. <strong>There's a better way.</strong></blockquote>
+</div>
+
+<!-- BEFORE / AFTER DECODE -->
+<section class="decode">
+  <div class="decode-head">
+    <h2>It's not that you don't understand insurance.<br>Nobody explained it in plain English.</h2>
+    <p>Healthcare Essentials translates the moments that feel impossible — denied claims, confusing EOBs, open enrollment decisions — into plain language and specific next steps.</p>
+  </div>
+
+  <div class="decode-panels">
+    <div class="panel panel-before">
+      <div class="panel-label">What you get</div>
+      <p class="panel-text">
+        "Member responsibility after contractual adjustment: $3,847.22. Covered amount applied to deductible. Non-covered services excluded from accumulator. See reverse for appeal timeline and grievance procedure."
+      </p>
+    </div>
+
+    <div class="decode-arrow">→</div>
+
+    <div class="panel panel-after">
+      <div class="panel-label">What it means</div>
+      <p class="panel-text">
+        You owe $3,847. But your insurance got a discount — you can't be billed more than this. If it doesn't look right, you have 180 days to appeal. Here's exactly how to do that.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT'S INCLUDED -->
+<section class="contents">
+  <div class="contents-inner">
+    <p class="section-tag">What's included</p>
+    <h2>Everything you need — before,<br>during, and after you need it.</h2>
+
+    <div class="items-grid">
+      <div class="item-card">
+        <p class="item-num">01</p>
+        <h3>Plain-language guide</h3>
+        <p>How health insurance actually works — premiums, deductibles, networks, in-network vs out-of-network, and why your bill never matches the estimate.</p>
+      </div>
+
+      <div class="item-card">
+        <p class="item-num">02</p>
+        <h3>Open enrollment checklist</h3>
+        <p>23 steps to choose the right plan — stop guessing between options and walk through what actually matters for your situation.</p>
+      </div>
+
+      <div class="item-card">
+        <p class="item-num">03</p>
+        <h3>Medical invoice &amp; EOB tracker</h3>
+        <p>Track every bill, every EOB, and every payment in one place — know exactly where you stand against your deductible and out-of-pocket maximum.</p>
+      </div>
+
+      <div class="item-card">
+        <p class="item-num">04</p>
+        <h3>Denied claim appeal letter template</h3>
+        <p>A step-by-step letter template for appealing a denial — with instructions for every section, written to be taken seriously by any insurer.</p>
+      </div>
+
+      <div class="item-card">
+        <p class="item-num">05</p>
+        <h3>EOB decoder &amp; worksheet</h3>
+        <p>Walk through any Explanation of Benefits line by line and know whether the number you owe is right — or whether to push back.</p>
+      </div>
+
+      <div class="item-card">
+        <p class="item-num">06</p>
+        <h3>Healthcare Essentials glossary</h3>
+        <p>58 terms across 7 categories, defined in plain English — from "allowed amount" to "usual, customary, and reasonable."</p>
+      </div>
+
+      <div class="item-card">
+        <p class="item-num">07</p>
+        <h3>Billing error checklist</h3>
+        <p>Catch costly mistakes before you pay — duplicate charges, incorrect codes, and services you never received.</p>
+      </div>
+
+      <div class="item-card">
+        <p class="item-num">08</p>
+        <h3>Pre-procedure cost checklist</h3>
+        <p>Know what you'll owe before you schedule — the calls to make and the questions to ask so nothing comes as a surprise.</p>
+      </div>
+
+      <div class="item-card">
+        <p class="item-num">09</p>
+        <h3>Insurance call scripts</h3>
+        <p>Six ready-to-use scripts for the calls patients dread most, from disputing a bill to appealing a denial.</p>
+      </div>
+
+      <div class="item-card">
+        <p class="item-num">10</p>
+        <h3>Medicare checklist</h3>
+        <p>21 steps through Medicare decisions, including the COBRA trap warning — for employees turning 65 or helping a parent navigate it alongside an employer plan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHEN YOU'LL REACH FOR IT -->
+<section class="moments">
+  <h2>You'll reach for this when...</h2>
+
+  <div class="moment-item">
+    <div class="moment-dot"><svg viewBox="0 0 12 12"><polyline points="2 6 5 9 10 3"/></svg></div>
+    <p>Your claim comes back denied and you have no idea whether to pay, appeal, or call someone.</p>
+  </div>
+
+  <div class="moment-item">
+    <div class="moment-dot"><svg viewBox="0 0 12 12"><polyline points="2 6 5 9 10 3"/></svg></div>
+    <p>An EOB arrives saying you owe $3,400 and you don't know if that number is right or a mistake.</p>
+  </div>
+
+  <div class="moment-item">
+    <div class="moment-dot"><svg viewBox="0 0 12 12"><polyline points="2 6 5 9 10 3"/></svg></div>
+    <p>Open enrollment opens and you're staring at three plan options with no idea which fits your family.</p>
+  </div>
+
+  <div class="moment-item">
+    <div class="moment-dot"><svg viewBox="0 0 12 12"><polyline points="2 6 5 9 10 3"/></svg></div>
+    <p>You hit your deductible and somehow bills are still coming — and you can't figure out why.</p>
+  </div>
+
+  <div class="moment-item">
+    <div class="moment-dot"><svg viewBox="0 0 12 12"><polyline points="2 6 5 9 10 3"/></svg></div>
+    <p>A parent just turned 65 and Medicare has to coordinate with their employer plan and nobody knows how.</p>
+  </div>
+
+  <div class="moment-item">
+    <div class="moment-dot"><svg viewBox="0 0 12 12"><polyline points="2 6 5 9 10 3"/></svg></div>
+    <p>You want to understand what you actually have before something goes wrong — and the open enrollment packet isn't helping.</p>
+  </div>
+</section>
+
+<!-- ABOUT CLAIRE -->
+<section class="about">
+  <div class="about-inner">
+    <p class="about-eyebrow">A note from the author</p>
+    <p>I spent 25 years in HR — 15 of them as an HR Manager — watching employees struggle with their own benefits. Not because they weren't smart. Because health insurance is genuinely complicated, and nobody explains it in plain English.</p>
+    <p>Every year at open enrollment, the same questions. Every month after: the bills, the denials, the calls that went nowhere. People weren't failing to understand their benefits — they were failing to understand a system designed to be confusing.</p>
+    <p>Healthcare Essentials is the guide I wished I could hand every employee on their first day. Real language. Specific steps. Written for someone with better things to do than decode insurance jargon at 10pm.</p>
+    <div class="about-sig">
+      <p class="name">Claire Sutton</p>
+      <p class="title">Founder, Sutton Essentials · 25 years in HR · 15 years as an HR Manager</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <p class="section-tag">Common questions</p>
+  <h2>Things people ask before buying.</h2>
+
+  <div class="faq-item">
+    <p class="faq-q">Is this for employees or HR professionals?</p>
+    <p class="faq-a">Both, but it's written for the person at home dealing with a bill — not for the HR team that selected the plan. If you're an employee trying to understand your own insurance, this is for you. If you're an HR Director who wants something to hand your workforce, it works for that too. There's a note at the bottom of this page about bulk access.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">Will this work with my specific insurance plan?</p>
+    <p class="faq-a">Yes. Healthcare Essentials is not plan-specific — it explains how health insurance works as a system: what deductibles, out-of-pocket maximums, and in-network vs. out-of-network mean in practice, how to read any EOB, and how the appeal process works regardless of your insurer. The concepts apply whether you're on a Blue Cross PPO, an Aetna HMO, a UnitedHealthcare HDHP, or anything else.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">My employer gave me a benefits guide during open enrollment. How is this different?</p>
+    <p class="faq-a">Your employer's guide tells you what you have. Healthcare Essentials tells you how to use it. Employer guides describe your specific plan's coverage limits and copays. They don't explain how to appeal a denied claim, how to read the EOB that arrives six weeks later, or how to figure out whether a bill is accurate. That's the gap this fills.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">What format is it and how do I get it?</p>
+    <p class="faq-a">Healthcare Essentials is delivered as a downloadable PDF immediately after purchase via Payhip. You'll receive a download link by email. It's readable on any device — phone, tablet, or computer — and fully printable if you prefer paper. It's yours to keep, share with family members, and come back to whenever you need it.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">Does the Medicare guide cover Medicare Advantage plans?</p>
+    <p class="faq-a">Yes. The Medicare section covers traditional Medicare (Parts A and B), Medicare Advantage (Part C), Part D prescription coverage, and how Medicare coordinates with an employer plan for employees who are still working at 65. It also covers the most common mistakes people make during the Medicare enrollment window and how to avoid them.</p>
+  </div>
+
+</section>
+
+<!-- PRICING -->
+<section class="pricing">
+  <h2>One price. Everything included.</h2>
+  <p class="pricing-sub">No subscription. No upsell. No fine print.</p>
+
+  <div class="price-box">
+    <div class="price-top">
+      <div class="price-amount">$47</div>
+      <span class="price-badge">Complete System</span>
+    </div>
+
+    <p class="price-what">What you get</p>
+    <ul class="price-list">
+      <li><span class="check-icon"><svg viewBox="0 0 10 10"><polyline points="1.5 5 4 7.5 8.5 2"/></svg></span>Plain-language health insurance guide</li>
+      <li><span class="check-icon"><svg viewBox="0 0 10 10"><polyline points="1.5 5 4 7.5 8.5 2"/></svg></span>Open enrollment checklist</li>
+      <li><span class="check-icon"><svg viewBox="0 0 10 10"><polyline points="1.5 5 4 7.5 8.5 2"/></svg></span>Medical invoice &amp; EOB tracker</li>
+      <li><span class="check-icon"><svg viewBox="0 0 10 10"><polyline points="1.5 5 4 7.5 8.5 2"/></svg></span>Denied claim appeal letter template</li>
+      <li><span class="check-icon"><svg viewBox="0 0 10 10"><polyline points="1.5 5 4 7.5 8.5 2"/></svg></span>EOB decoder &amp; worksheet</li>
+      <li><span class="check-icon"><svg viewBox="0 0 10 10"><polyline points="1.5 5 4 7.5 8.5 2"/></svg></span>Healthcare Essentials glossary</li>
+      <li><span class="check-icon"><svg viewBox="0 0 10 10"><polyline points="1.5 5 4 7.5 8.5 2"/></svg></span>Billing error checklist</li>
+      <li><span class="check-icon"><svg viewBox="0 0 10 10"><polyline points="1.5 5 4 7.5 8.5 2"/></svg></span>Pre-procedure cost checklist</li>
+      <li><span class="check-icon"><svg viewBox="0 0 10 10"><polyline points="1.5 5 4 7.5 8.5 2"/></svg></span>Insurance call scripts</li>
+      <li><span class="check-icon"><svg viewBox="0 0 10 10"><polyline points="1.5 5 4 7.5 8.5 2"/></svg></span>Medicare checklist</li>
+    </ul>
+
+    <a href="https://payhip.com/b/HwKry" class="buy-btn">Get Healthcare Essentials — $47 →</a>
+
+    <div class="format-info">
+      <span class="format-item"><span class="format-dot"></span>PDF instant download</span>
+      <span class="format-item"><span class="format-dot"></span>Works on any device</span>
+      <span class="format-item"><span class="format-dot"></span>Fully printable</span>
+      <span class="format-item"><span class="format-dot"></span>Yours to keep</span>
+    </div>
+
+    <div class="guarantee-box">
+      <span class="guarantee-icon">🛡</span>
+      <p><strong>30-day guarantee.</strong> If Healthcare Essentials doesn't help you understand your benefits, appeal a claim, or navigate your EOB, email me within 30 days and I'll refund you in full. No forms, no questions.</p>
+    </div>
+
+  </div>
+
+  <p class="price-fine">Delivered instantly via Payhip · Secure checkout<br>Questions? <a href="mailto:claire@suttonessentials.com" style="color:var(--azure);">claire@suttonessentials.com</a></p>
+</section>
+
+<!-- EMPLOYER PATHWAY -->
+<div class="employer-bar">
+  <p>Are you an HR Director who wants to make this available to your whole workforce? <a href="mailto:claire@suttonessentials.com">Email claire@suttonessentials.com</a> to ask about bulk access.</p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>
+    <strong><a href="https://suttonessentials.com">Sutton Essentials</a></strong><br>
+    HR resources built for real people. · <a href="https://suttonessentials.com">suttonessentials.com</a><br>
+    Simpsonville, SC
+  </p>
+</footer>
+
+</body>
+</html>
